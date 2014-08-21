@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.tencent.qqfoundation"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="14"/>
+    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher"
+            android:name=".QQApplication"
+            >
+        <activity android:name=".activity.MyActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activity.SchemeJumpActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="qqapp" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".activity.demo.Demo1Activity" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"></action>
+
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".activity.demo.Demo2Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"></action>
+                <category android:name="android.intent.category.DEFAULT"></category>
+                <data android:scheme="app" android:host="www.qq.com" android:port="80" android:path="/demo/2"></data>
+
+                <!-- uri parse 完全匹配   path /xx/xx 最前面的/不能忽略 -->
+            </intent-filter>
+        </activity>
+
+
+
+        <activity android:name=".fragment.FragmentProxyActivity" android:screenOrientation="portrait" >
+
+
+        </activity>
+
+
+        <activity android:name=".app1.DemoActivity" ></activity>
+        <activity android:name=".app2.FirstActivity"></activity>
+        <activity android:name=".app2.SecondActivity"></activity>
+
+
+
+
+    </application>
+</manifest>

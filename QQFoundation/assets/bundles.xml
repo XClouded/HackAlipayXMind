@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bundles>
+
+
+    <application name="demo" clazz="com.tencent.qqfoundation.app1.DemoApp" entry="true"></application>
+    <application name="demo2" clazz="com.tencent.qqfoundation.app2.Demo2App" entry="false"></application>
+
+
+</bundles>
