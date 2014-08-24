@@ -44,48 +44,7 @@
     <favorites_list name="QQFoundation" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="QQApplication.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/tencent/qqfoundation/QQApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53642386" vertical-offset="324" max-vertical-offset="1512">
-              <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ApplicationManagerImp.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tencent/qqfoundation/framework/core/loader/ApplicationManagerImp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="468" max-vertical-offset="3978">
-              <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".classpath" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.classpath">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="270">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QQClassLoader.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/tencent/qqfoundation/repo/pluins/install/QQClassLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="882">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -141,8 +100,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="142" />
-    <option name="y" value="22" />
+    <option name="x" value="240" />
+    <option name="y" value="60" />
     <option name="width" value="1212" />
     <option name="height" value="778" />
   </component>
@@ -528,12 +487,12 @@
       <changelist id="c1615935-4f72-45cc-9fc2-72fac75ce894" name="Default" comment="" />
       <created>1407725488225</created>
       <updated>1407725488225</updated>
-      <workItem from="1408887538102" duration="4396000" />
+      <workItem from="1408887538102" duration="4593000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4396000" />
+    <option name="totallyTimeSpent" value="4593000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -556,7 +515,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="142" y="22" width="1212" height="778" extended-state="0" />
+    <frame x="240" y="60" width="1212" height="778" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -992,7 +951,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tencent/qqfoundation/repo/pluins/install/QQClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="882">
+        <state vertical-scroll-proportion="0.29801324" vertical-offset="216" max-vertical-offset="882">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding />
         </state>
@@ -1000,7 +959,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/tencent/qqfoundation/framework/core/loader/ApplicationManagerImp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="468" max-vertical-offset="3978">
+        <state vertical-scroll-proportion="0.95364237" vertical-offset="468" max-vertical-offset="3978">
           <caret line="52" column="9" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
           <folding />
         </state>
