@@ -76,14 +76,24 @@ public class ApplicationManagerImp implements ApplicationManager {
 
         QQApp app = appMap.get(targetApp);
         QQApp tmp = null;
-        while (app != (tmp = apps.peek())) {
 
-            apps.pop();
-            tmp.destory(params);
+        try {
+
+            while (app != (tmp = apps.peek())) {
+
+                apps.pop();
+                tmp.destory(params);
+
+            }
+
+            app.restart(params);
+
+
+        }catch (EmptyStackException e){
+
+
 
         }
-
-        app.restart(params);
 
 
     }

@@ -13,20 +13,20 @@
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="jump demo1"
+            android:text="UIBus Jump Demo"
             android:id="@+id/button2"
             android:onClick="jumpdemo1"
             />
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="loadfragment"
+            android:text="ClassLoader LoadFragment"
             android:onClick="loadfragment"
             android:id="@+id/button3"/>
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="startapp"
+            android:text="Bundle startapp"
             android:onClick="startapp"
             android:id="@+id/button4"/>
 </LinearLayout>

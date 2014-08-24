@@ -51,6 +51,11 @@
         </activity>
 
 
+        <activity android:name=".app1.DemoActivity" ></activity>
+        <activity android:name=".app2.FirstActivity"></activity>
+        <activity android:name=".app2.SecondActivity"></activity>
+
+
 
 
     </application>

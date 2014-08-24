@@ -20,7 +20,7 @@ public class QQClassLoader extends DexClassLoader {
     public static QQClassLoader getClassLoader(){
 
         File dir = QQApplication.getQQApplication().getFilesDir();
-        File apkPath = new File(dir,"FragmentDemo.apk");
+        File apkPath = new File(dir,"Fragment.apk");
 
         if (!apkPath.exists()){
             try {

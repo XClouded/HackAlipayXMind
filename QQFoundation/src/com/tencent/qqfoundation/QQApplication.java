@@ -6,6 +6,10 @@ import android.content.res.Configuration;
 
 import com.tencent.qqfoundation.framework.core.loader.QQApplicationContext;
 import com.tencent.qqfoundation.repo.pluins.PluginContext;
+import com.tencent.qqfoundation.repo.pluins.install.PluginUtil;
+
+import java.io.File;
+import java.io.IOException;
 
 /**
  * Created by jackrexxie on 2014/8/11.
@@ -22,8 +26,25 @@ public class QQApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
-        sApplication = this;   
-    	soutContext =  new PluginContext(this, 0, "", getClassLoader());
+        sApplication = this;
+
+
+        // Demo 简单演示 就不说性能了 jackrex
+        File dir = QQApplication.getQQApplication().getFilesDir();
+        File apkPath = new File(dir,"Fragment.apk");
+
+        if (!apkPath.exists()){
+            try {
+                apkPath.createNewFile();
+                PluginUtil.copyAssets(QQApplication.getQQApplication());
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+
+
+
+        soutContext =  new PluginContext(this, 0, "/data/data/com.tencent.qqfoundation/files/Fragment.apk", getClassLoader());
 
         try {
             qqApplicationContext = (QQApplicationContext) Class.forName("com.tencent.qqfoundation.framework.core.loader.QQApplicationContextImp").newInstance();

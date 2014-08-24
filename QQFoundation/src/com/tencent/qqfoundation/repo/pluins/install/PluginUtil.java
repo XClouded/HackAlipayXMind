@@ -13,7 +13,7 @@ public class PluginUtil {
 
     public  static void copyAssets(Context context) {
         AssetManager assetManager = context.getAssets();
-        String filename = "FragmentDemo.apk";
+        String filename = "Fragment.apk";
 
             InputStream in = null;
             OutputStream out = null;

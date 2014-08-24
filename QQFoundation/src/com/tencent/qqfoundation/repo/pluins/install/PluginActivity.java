@@ -2,7 +2,6 @@ package com.tencent.qqfoundation.repo.pluins.install;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 
 /**
@@ -28,15 +27,30 @@ public class PluginActivity extends Activity {
     }
 
 
+    //TODO
     protected void startActivityWithLanuchMode(Intent intent,LANUCHMODE lanuchmode ){
 
         switch (lanuchmode){
 
-//            case LANUCHMODE.SINGLEINSTANCE:
-//
-//
-//                break;
+            case STANDARD:
 
+                startActivity(intent);
+
+
+                break;
+            case SINGLETOP:
+
+                intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(intent);
+
+                break;
+            case SINGLEINSTANCE:
+
+
+                break;
+
+            case SINGLETASK:
+                break;
         }
 
 
